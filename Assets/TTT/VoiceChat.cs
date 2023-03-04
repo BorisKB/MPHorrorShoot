@@ -7,6 +7,7 @@ using UnityEngine.UIElements;
 public class VoiceChat : NetworkBehaviour
 {
     [SerializeField] private AudioSource microphoneAdio;
+    [SerializeField] private AudioSource micropShymAdio;
     [SerializeField] public int _sampleRate = 48000;
     [SerializeField] private string _micro;
     void Start()
@@ -64,10 +65,12 @@ public class VoiceChat : NetworkBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         microphoneAdio.Play();
+        micropShymAdio.Play();
     }
     private IEnumerator TTTt()
     {
         yield return new WaitForSeconds(0.2f);
         microphoneAdio.Stop();
+        micropShymAdio.Play();
     }
 }
