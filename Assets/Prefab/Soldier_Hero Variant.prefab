@@ -591,7 +591,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 1669589941800007671, guid: c61a486baa863c44f8cef304ca222ed6,
     type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2cb261f15a84b42499e1133e27fdf7c6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -869,7 +869,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 2a1b3d71e6b65ec4f9dd43afd2ae82b3, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.665
+  m_Volume: 0.082
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2524,6 +2524,7 @@ MonoBehaviour:
   micropShymAdio: {fileID: 4305625921661945059}
   _sampleRate: 48000
   _micro: 
+  data: []
 --- !u!114 &7239362973702562225
 MonoBehaviour:
   m_ObjectHideFlags: 0
